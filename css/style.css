@@ -1,0 +1,87 @@
+body {
+    background: #a8f0d9;
+    color: #295245;
+    font-size: 2.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 50px;
+}
+
+form, #results {
+    background: #d9faf6;
+    padding: 30px 20px;
+    border-radius: 3px;
+    box-shadow: 5px 5px 3px #295245;
+
+}
+
+h1, h2 {
+    text-shadow: 3px 2px 5px #1f3f35;
+}
+
+h1, #results {
+    text-align: center;
+}
+
+
+button {
+    margin-top: 35px;
+
+}
+
+@media(min-width: 768px) {
+    body {
+        font-size: 3rem;
+    }
+
+    h1 {
+        font-size: 5rem;
+        margin-bottom: 70px;
+    }
+
+    .lg {
+        box-sizing: border-box;
+    }
+
+    form {
+        float: left;
+        width: 43%;
+        margin-right: 30px;
+        height: 420px;
+        padding: 50px 40px;
+    }
+
+    #results {
+        float: right;
+        width: 50%;
+        height: 420px;
+    }
+
+    #price {
+        height: 65px;
+        font-size: 2rem;
+        margin: 50px 0px;
+    }
+
+    #button {
+        height: 65px;
+        width: 320px;
+        font-size: 2.25rem;
+        margin: 80px auto;
+    }
+
+    h2 {
+        font-size: 3.5rem;
+        padding-top: 40px;
+        padding-bottom: 28px;
+    }
+
+}
+
+
+
+
+
+
+
+
+

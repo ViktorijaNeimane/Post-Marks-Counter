@@ -1,0 +1,1 @@
+This counter is made getting amount of post marks according to price for sending letter or postal parcels.
